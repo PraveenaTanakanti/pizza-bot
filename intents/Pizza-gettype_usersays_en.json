@@ -1,0 +1,85 @@
+[
+  {
+    "id": "0072614c-490a-451f-913b-7f4f3e13f9d3",
+    "data": [
+      {
+        "text": "non-veg",
+        "meta": "@pizza-type",
+        "alias": "type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c3d34e90-5b15-4158-8901-352651275341",
+    "data": [
+      {
+        "text": "non veg",
+        "meta": "@pizza-type",
+        "alias": "type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "69321263-90b5-4e78-9573-41ccfc89a752",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "non veg",
+        "meta": "@pizza-type",
+        "alias": "type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "8c4a62c3-585e-44fc-b6a3-ab5f7777a8e7",
+    "data": [
+      {
+        "text": "veg",
+        "meta": "@pizza-type",
+        "alias": "type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "96162936-cd5e-45ac-ad3f-3d94a129d3f2",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "VEG",
+        "meta": "@pizza-type",
+        "alias": "type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

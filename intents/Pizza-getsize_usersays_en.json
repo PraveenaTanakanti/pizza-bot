@@ -1,0 +1,70 @@
+[
+  {
+    "id": "1570619e-d024-48f7-b252-c7520ccc7a76",
+    "data": [
+      {
+        "text": "large",
+        "meta": "@Pizza-size",
+        "alias": "size",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "32611e5d-e53a-4947-8891-f3c4dd1b7bec",
+    "data": [
+      {
+        "text": "medium",
+        "meta": "@Pizza-size",
+        "alias": "size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "02c2b8ba-eb02-4552-86a1-0e34fc74366b",
+    "data": [
+      {
+        "text": "I want the size to be ",
+        "userDefined": false
+      },
+      {
+        "text": "large",
+        "meta": "@Pizza-size",
+        "alias": "size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "2bbd0f98-2bf7-4d1d-972a-155099469cf8",
+    "data": [
+      {
+        "text": "Give ",
+        "userDefined": false
+      },
+      {
+        "text": "regular",
+        "meta": "@Pizza-size",
+        "alias": "size",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

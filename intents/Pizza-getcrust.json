@@ -1,0 +1,54 @@
+{
+  "id": "d203def4-50e0-4480-9771-cfc4017e493d",
+  "name": "Pizza-getcrust",
+  "auto": true,
+  "contexts": [
+    "Pizza-gettype"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Pizza-getcrust",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "bd7cf626-5000-4c58-9c84-c54aca6c1283",
+          "name": "crust",
+          "required": true,
+          "dataType": "@Pizza-crust",
+          "value": "$crust",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

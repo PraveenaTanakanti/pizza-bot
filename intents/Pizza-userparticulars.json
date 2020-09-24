@@ -1,0 +1,90 @@
+{
+  "id": "7b1e448d-0e25-4764-b818-cb0cba9c4562",
+  "name": "Pizza-userparticulars",
+  "auto": true,
+  "contexts": [
+    "Pizza-count"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9450142f-2681-44b3-bfc2-82c7cd84cd20",
+          "name": "firstname",
+          "required": true,
+          "dataType": "@sys.any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9db4b676-6023-480d-9488-78d7e09204ef",
+          "name": "lastname",
+          "required": true,
+          "dataType": "@sys.any",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a1481dc9-6b5a-4e51-a1ab-0958e0343551",
+          "name": "Phoneno",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "73b99873-cf09-450e-a43e-23e427012090",
+          "name": "pincode",
+          "required": true,
+          "dataType": "@sys.zip-code",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you for your order $firstname . You have choose #Pizza-getcrust.crust and #Pizza-getsize.size . You will get the order in 30 minutes or you get your money back."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "559abe2c-673e-4f7f-bb22-7811cf0624f9",
+  "name": "Pizza-crust",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

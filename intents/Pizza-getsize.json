@@ -1,0 +1,54 @@
+{
+  "id": "975b64b3-25d7-4344-af6a-206c23d8c38b",
+  "name": "Pizza-getsize",
+  "auto": true,
+  "contexts": [
+    "Pizza-start"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Pizza-getsize",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e821bca1-ee9a-4012-b5e3-75a8cfcd9bb5",
+          "name": "size",
+          "required": true,
+          "dataType": "@Pizza-size",
+          "value": "$size",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

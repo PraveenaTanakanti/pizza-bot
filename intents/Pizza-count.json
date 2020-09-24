@@ -1,0 +1,57 @@
+{
+  "id": "1f214649-0ec4-4757-b088-045473b6ca1f",
+  "name": "Pizza-count",
+  "auto": true,
+  "contexts": [
+    "Pizza-getcrust"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "Pizza-count",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d06d5688-ace5-4cae-9eee-16dcb0051906",
+          "name": "noofpizzass",
+          "required": true,
+          "dataType": "@sys.number",
+          "value": "$noofpizzass",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Thank you, Now we will get your Particulars. Type OK to continue"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

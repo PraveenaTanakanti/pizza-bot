@@ -1,0 +1,51 @@
+[
+  {
+    "id": "06adb18e-86f5-49dd-a582-ef07a9121019",
+    "data": [
+      {
+        "text": "thin",
+        "meta": "@Pizza-crust",
+        "alias": "crust",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ad341ca7-b57e-4cf4-a0f5-0d1ebbaab7b1",
+    "data": [
+      {
+        "text": "hand tossed",
+        "meta": "@Pizza-crust",
+        "alias": "crust",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d7e00de7-11bf-480c-a234-63d0c4db0957",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "cheese",
+        "meta": "@Pizza-crust",
+        "alias": "crust",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
